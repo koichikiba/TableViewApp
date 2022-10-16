@@ -13,6 +13,8 @@
 		CE7285EC28FBDD490009BDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7285EA28FBDD490009BDA6 /* Main.storyboard */; };
 		CE7285EE28FBDD4B0009BDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7285ED28FBDD4B0009BDA6 /* Assets.xcassets */; };
 		CE7285F128FBDD4B0009BDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7285EF28FBDD4B0009BDA6 /* LaunchScreen.storyboard */; };
+		CE7285F928FBE5900009BDA6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7285F828FBE5900009BDA6 /* TableViewController.swift */; };
+		CE7285FB28FBF5C50009BDA6 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7285FA28FBF5C50009BDA6 /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE7285ED28FBDD4B0009BDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7285F028FBDD4B0009BDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7285F228FBDD4B0009BDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7285F828FBE5900009BDA6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE7285FA28FBF5C50009BDA6 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				CE7285E428FBDD490009BDA6 /* AppDelegate.swift */,
 				CE7285E628FBDD490009BDA6 /* SceneDelegate.swift */,
+				CE7285F828FBE5900009BDA6 /* TableViewController.swift */,
 				CE7285E828FBDD490009BDA6 /* ViewController.swift */,
 				CE7285EA28FBDD490009BDA6 /* Main.storyboard */,
+				CE7285FA28FBF5C50009BDA6 /* AddListViewController.swift */,
 				CE7285ED28FBDD4B0009BDA6 /* Assets.xcassets */,
 				CE7285EF28FBDD4B0009BDA6 /* LaunchScreen.storyboard */,
 				CE7285F228FBDD4B0009BDA6 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7285E928FBDD490009BDA6 /* ViewController.swift in Sources */,
+				CE7285FB28FBF5C50009BDA6 /* AddListViewController.swift in Sources */,
 				CE7285E528FBDD490009BDA6 /* AppDelegate.swift in Sources */,
 				CE7285E728FBDD490009BDA6 /* SceneDelegate.swift in Sources */,
+				CE7285F928FBE5900009BDA6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
