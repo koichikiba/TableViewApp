@@ -22,15 +22,16 @@ class AddListViewController: UIViewController {
     
     @IBAction func addTask(_ sender: Any) {
         let userDefaults = UserDefaults.standard
-        taskArray.append(addText.text!)
-        userDefaults.set(taskArray, forKey: "add") //キー"add"で配列をUserDefaultsに保存
-        self.navigationController?.popViewController(animated: true) //1つ前の画面に戻る
+        
+        if addText.text != "" {
+            taskArray.append(addText.text!)
+            userDefaults.set(taskArray, forKey: "add") //キー"add"で配列をUserDefaultsに保存
+            self.navigationController?.popViewController(animated: true) //1つ前の画面に戻る
+        }
     }
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // MARK: - Navigation6777777777ion, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
