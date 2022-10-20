@@ -14,10 +14,10 @@ class AddListViewController: UIViewController {
         super.viewDidLoad()
         
         let userDefaults = UserDefaults.standard
-                      //"add"というキーで保存された値がなにかある -> 値をtaskArrayへ
-                      if userDefaults.object(forKey: "add") != nil {
-                          taskArray = userDefaults.object(forKey: "add") as! [String]
-                      }
+        //"add"というキーで保存された値がなにかある -> 値をtaskArrayへ
+        if userDefaults.object(forKey: "add") != nil {
+            taskArray = userDefaults.object(forKey: "add") as! [String]
+        }
     }
     
     @IBAction func addTask(_ sender: Any) {
@@ -31,11 +31,11 @@ class AddListViewController: UIViewController {
     }
     
     /*
-    // MARK: - Navigation6777777777ion, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation6777777777ion, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
